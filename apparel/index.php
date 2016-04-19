@@ -5,18 +5,15 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="material/js/accordion.js"></script>
-<script type="text/javascript" src="material/js/jquery.accordion.js"></script>
+<script type="text/javascript" src="material/js/jquery.carouFredSel-6.2.1-packed.js"></script>
 <?php include 'material/tpl/default/meta.php' ?>
-<link rel="stylesheet" href="material/tpl/default/css/base.css" type="text/css" />
+<link rel="stylesheet" href="material/tpl/default/css/base.css" type="text/css"/>
 <link rel="stylesheet" href="material/tpl/default/css/jquery.jscrollpane.css" type="text/css"/>
 <link rel="stylesheet" href="material/tpl/default/css/accordion-designed.css" type="text/css"/>
 
-<script type="text/javascript" src="material/js/jquery.carouFredSel-6.2.1-packed.js"></script>
 
 <script type="text/javascript">
 $(function() {
-
-
 				$('#foo0').carouFredSel({
 					auto:4000,
 					scroll : {
@@ -24,7 +21,6 @@ $(function() {
             duration        : 1000,
 						easing:"linear"
         }
-
 					});
 $('#foo2').carouFredSel({
 					pagination: "#pager2",
@@ -37,9 +33,9 @@ $('#foo2').carouFredSel({
         }
 				});
 				});
-
-
 </script>
+
+
 </head>
 <body>
 <div id="container">
