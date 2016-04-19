@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="material/tpl/default/css/jquery.jscrollpane.css" type="text/css"/>
 <script type="text/javascript" src="material/js/jcarousellite_1.0.1.min.js"></script>
 <script type="text/javascript" src="material/js/jquery.bxSlider.min.js"></script>
-<script type="text/javascript" src="material/js/function.js"></script> 
+<script type="text/javascript" src="material/js/function.js"></script>
 <script type="text/javascript" src="material/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="material/js/accordion.js"></script>
 
 </head>
 <body>
