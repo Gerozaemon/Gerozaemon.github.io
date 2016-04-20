@@ -1,7 +1,7 @@
 <a href="about_us.php" class="about">当店について</a>
 <nav class="leftmenu">
 	<h2>商品から探す</h2>
-		<ul class="syncer-acdn-parent">
+		<ul>
 				<li><p><a class="syncer-acdn" data-target="syncer-acdn-03"><s>●</s>限定商品</a></p>
 					<ul id="syncer-acdn-03" class="syncer-acdn-child">
 						<li><a href="#syncer-acdn-01">子メニュー 1-1</a></li>
@@ -13,12 +13,12 @@
 						<li><a href="#syncer-acdn-01">子メニュー 1-7</a></li>
 					</ul>
 				</li>
-        <li><a href="#"><s>●</s>商品カテゴリー<span class="arrow"></span></a>
-					<ul>
-	      		<li><a href="#">サブカテゴリー１</a></li>
-	          <li><a href="#">サブカテゴリー２</a></li>
-	          <li><a href="#">サブカテゴリー３</a></li>
-	          <li><a href="#">サブカテゴリー４</a></li>
+        <li><p><a class="syncer-acdn" data-target="syncer-acdn-04"><s>●</s>期間商品</a></p>
+					<ul id="syncer-acdn-04" class="syncer-acdn-child">
+	      		<li><a href="#syncer-acdn-02">サブカテゴリー１</a></li>
+	          <li><a href="#syncer-acdn-02">サブカテゴリー２</a></li>
+	          <li><a href="#syncer-acdn-02">サブカテゴリー３</a></li>
+	          <li><a href="#syncer-acdn-02">サブカテゴリー４</a></li>
 	       </ul>
 				</li>
         <li><a href="#"><s>●</s>商品カテゴリー</a></li>
