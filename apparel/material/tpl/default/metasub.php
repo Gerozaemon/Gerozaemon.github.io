@@ -7,19 +7,7 @@
 
 <!-- <script type="text/javascript" src="material/js/jquery.js"></script> -->
 
-<script type="text/javascript">
-$(function() {
-	var nav = $('.overimg');
-	nav.hover(
-		function(){
-			$(this).fadeTo(500,0.5);
-		},
-		function () {
-			$(this).fadeTo(500,1);
-		}
-	);
-});
-</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

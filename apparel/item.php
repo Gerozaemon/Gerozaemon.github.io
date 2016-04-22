@@ -11,14 +11,13 @@
 	<script type="text/javascript" src="material/js/fancy/jquery.fancybox.js?v=2.1.5"></script>
 	<link rel="stylesheet" type="text/css" href="material/js/fancy/jquery.fancybox.css?v=2.1.5" media="screen" />
 
-	<!-- Add Button helper (this is optional) -->
+<!-- Add Button helper (this is optional) -->
 	<link rel="stylesheet" type="text/css" href="material/js/fancy/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
 	<script type="text/javascript" src="material/js/fancy/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="material/js/jquery.carouFredSel-6.2.1-packed.js"></script>
 
+	<script type="text/javascript" src="material/js/jquery.elevatezoom.js"></script>
 
-
-
-<script type="text/javascript" src="material/js/jquery.carouFredSel-6.2.1-packed.js"></script>
 
 <script type="text/javascript">
 $(function() {
@@ -29,7 +28,7 @@ $('#foo0').carouFredSel({
             duration        : 3000,
 						easing:"linear"
         }
-					
+
 					});
 $('#foo2').carouFredSel({
 					pagination: "#pager2",
@@ -41,7 +40,7 @@ $('#foo2').carouFredSel({
             duration        : 2000
         }
 				});
-				
+
 $('#foo3').carouFredSel({
 					auto: false,
 					scroll : {
@@ -50,19 +49,19 @@ $('#foo3').carouFredSel({
         },
 				pagination	: {
 		container		: "#foo3_pag",
-	
+
 		anchorBuilder	: function( nr ) {
 			var src = $("img", this).attr( "src" );
-				
+
 			return '<div class="thumImg"><img src="' + src + '" /></div>';
 		},
 	}
-					
+
 					});
 				});
-				
-				
-				
+
+
+
 				$('.fancybox-buttons').fancybox({
 				openEffect : 'elastic',
 				openSpeed  : 150,
@@ -100,7 +99,7 @@ $('#foo3').carouFredSel({
     <article id="itemCrm">
       <?php include 'page/item.html' ?>
     </article>
-    
+
     <div class="empty"> &nbsp; </div>
   </div>
 </div>
